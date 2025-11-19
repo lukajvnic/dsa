@@ -7,7 +7,6 @@ class Solution:
         seen = {}  # character: index
 
         while j < len(s):
-            print(i,j)
             cur = s[j]
 
             if cur not in seen:
